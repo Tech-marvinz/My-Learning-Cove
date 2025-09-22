@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    background-color: #c7c5c5;
+    background-color: #D6E1F0;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     display: grid;
@@ -34,8 +34,7 @@ body {
 .card img {
     width: 180px;
     border-radius: 10px;
-    margin-top: 1rem;
-    margin-left: 0.7rem;
+    margin: 10px;
 }
 
 .card h1 {
@@ -43,7 +42,7 @@ body {
     text-align: center;
     margin: 0.8rem 1rem;
     padding: 0 0.5rem;
-    color: #042642;
+    color: #283643;
 }
 
 .card p {
@@ -52,11 +51,5 @@ body {
     text-align: center;
     margin: 0 1rem;
     padding: 0 0.5rem;
-    color: #042642;
-}
-
-@media screen and (width: 52rem) {
-    .container {
-        font-size: 60rem;
-    }
+    color: #283643;
 }
